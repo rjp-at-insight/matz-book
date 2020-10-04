@@ -16,10 +16,11 @@ class Song
     # Getter and Setter
     attr-reader :title :artist :duration
     attr-writer :title :artist :duration 
-    
+
     def to_s
         "Song: #{@title}--#{@artist} (#{@duration})"
-    end    
+    end 
+       
 end
 
 class KaraokeSong < Song
