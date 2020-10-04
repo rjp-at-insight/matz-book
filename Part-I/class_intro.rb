@@ -2,7 +2,8 @@
 #   DATE        : 10/04/2020
 #   FILE        : class_intro.rb
 #   SYNOPSIS    : Work-thru file for 'Programming Ruby - The Pragmatic Programmer's Gudie'. This file is a simple
-#               intro to OOP classes.
+#               intro to the use of OOP classes in "Ruby".
+# ----------------------------------------------------------------------------------------------------------------
 
 class Song
     
@@ -20,7 +21,7 @@ class Song
     def to_s
         "Song: #{@title}--#{@artist} (#{@duration})"
     end 
-       
+
 end
 
 class KaraokeSong < Song
